@@ -97,6 +97,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                             <textarea class="form-control" name="comment" id="exampleFormControlTextarea1" rows="3"><?php echo $comment; ?></textarea>
                         </div>
                         <button name="add2" class="btn btn-primary">Post</button>
+                        <a class="btn btn-secondary" href="addpost.php">Back </a>
                     </form>
 
             <?php     }
